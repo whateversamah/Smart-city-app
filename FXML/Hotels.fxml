@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="595.0" prefWidth="825.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Hotels">
+   <children>
+      <ImageView fitHeight="603.0" fitWidth="828.0" layoutX="-2.0" layoutY="-4.0">
+         <image>
+            <Image url="@Images/hotelsPage.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="BackButton" layoutX="77.0" layoutY="384.0" mnemonicParsing="false" onAction="#BackOnAction" prefHeight="34.0" prefWidth="97.0" style="-fx-background-color: #950217;" text="Back" textFill="#fcf9f9">
+         <font>
+            <Font name="Rockwell" size="18.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <ImageView fitHeight="198.0" fitWidth="256.0" layoutX="246.0" layoutY="25.0">
+         <image>
+            <Image url="@Images/8.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="210.0" fitWidth="256.0" layoutX="242.0" layoutY="239.0">
+         <image>
+            <Image url="@Images/55.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="204.0" fitWidth="264.0" layoutX="541.0" layoutY="242.0">
+         <image>
+            <Image url="@Images/66.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="198.0" fitWidth="256.0" layoutX="547.0" layoutY="30.0">
+         <image>
+            <Image url="@Images/33.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="165.0" layoutX="288.0" layoutY="219.0">
+         <image>
+            <Image url="@Images/cadre.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="165.0" layoutX="593.0" layoutY="439.0">
+         <image>
+            <Image url="@Images/cadre.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="31.0" fitWidth="165.0" layoutX="298.0" layoutY="436.0">
+         <image>
+            <Image url="@Images/cadre.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="165.0" layoutX="601.0" layoutY="219.0">
+         <image>
+            <Image url="@Images/cadre.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="333.0" layoutY="236.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Barcelo Anfa">
+         <font>
+            <Font name="Rockwell" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="302.0" layoutY="453.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kenzi Sidi Maarouf Hotel">
+         <font>
+            <Font name="Rockwell" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="635.0" layoutY="456.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hyatt Regency ">
+         <font>
+            <Font name="Rockwell" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="672.0" layoutY="236.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Domo">
+         <font>
+            <Font name="Rockwell" size="14.0" />
+         </font>
+      </Text>
+      <Hyperlink fx:id="hyperlink" layoutX="400.0" layoutY="513.0" onAction="#openLink" text="Check Out More On the Website">
+         <font>
+            <Font name="Rockwell" size="16.0" />
+         </font>
+         <effect>
+            <Bloom />
+         </effect>
+      </Hyperlink>
+   </children>
+</AnchorPane>

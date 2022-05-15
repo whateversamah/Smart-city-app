@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="544.0" prefWidth="701.0" style="-fx-background-color: #FEF8F8;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.InternetBills">
+   <children>
+      <ImageView fitHeight="488.0" fitWidth="642.0" layoutX="30.0" layoutY="21.0">
+         <image>
+            <Image url="@Images/InternetBills.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="BackButton" layoutX="112.0" layoutY="294.0" mnemonicParsing="false" onAction="#BackOnAction" style="-fx-background-color: #950217;" text="Back" textFill="#fcf7f7">
+         <font>
+            <Font name="Rockwell" size="16.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Label fx:id="AugustBills" layoutX="393.0" layoutY="115.0">
+         <font>
+            <Font name="Rockwell" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="SeptBills" layoutX="393.0" layoutY="202.0">
+         <font>
+            <Font name="Rockwell" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="OctobBills" layoutX="393.0" layoutY="286.0">
+         <font>
+            <Font name="Rockwell" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="NovBills" layoutX="393.0" layoutY="363.0">
+         <font>
+            <Font name="Rockwell" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="DecBills" layoutX="393.0" layoutY="443.0">
+         <font>
+            <Font name="Rockwell" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="561.0" layoutY="115.0" text="MAD">
+         <font>
+            <Font name="Rockwell" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="565.0" layoutY="202.0" text="MAD">
+         <font>
+            <Font name="Rockwell" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="565.0" layoutY="278.0" text="MAD">
+         <font>
+            <Font name="Rockwell" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="565.0" layoutY="364.0" text="MAD">
+         <font>
+            <Font name="Rockwell" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="565.0" layoutY="444.0" text="MAD">
+         <font>
+            <Font name="Rockwell" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="48.0" layoutY="248.0" text="ID" textFill="#ab0e0e">
+         <font>
+            <Font name="Rockwell" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="ID" layoutX="85.0" layoutY="247.0" promptText="ID">
+         <font>
+            <Font name="Rockwell" size="14.0" />
+         </font>
+      </TextField>
+      <Button fx:id="GoButton" layoutX="184.0" layoutY="294.0" mnemonicParsing="false" onAction="#GoOnAction" style="-fx-background-color: #950217;" text="Check" textFill="#fcf7f7">
+         <font>
+            <Font name="Rockwell" size="16.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Label fx:id="ErrorMesssage" layoutX="461.0" layoutY="32.0" />
+   </children>
+</AnchorPane>

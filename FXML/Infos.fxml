@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="435.0" prefWidth="673.0" style="-fx-background-color: #950217;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Infos">
+   <children>
+      <AnchorPane layoutX="475.0" layoutY="-1.0" prefHeight="391.0" prefWidth="200.0" style="-fx-background-color: #950217;" />
+      <ImageView fitHeight="385.0" fitWidth="610.0" layoutX="-8.0">
+         <image>
+            <Image url="@Images/bankAccountInfo2.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="BackButton2" layoutX="138.0" layoutY="286.0" mnemonicParsing="false" onAction="#BackOnAction2" text="Back">
+         <font>
+            <Font name="Rockwell" size="18.0" />
+         </font></Button>
+      <Label fx:id="NameLabel" layoutX="459.0" layoutY="91.0">
+         <font>
+            <Font name="Rockwell" size="18.0" />
+         </font></Label>
+      <Label fx:id="SocialNumberLabel" layoutX="467.0" layoutY="130.0">
+         <font>
+            <Font name="Rockwell" size="18.0" />
+         </font></Label>
+      <Label fx:id="RIBLabel" layoutX="392.0" layoutY="176.0">
+         <font>
+            <Font name="Rockwell" size="18.0" />
+         </font></Label>
+      <Label fx:id="AdressLabel" layoutX="431.0" layoutY="218.0">
+         <font>
+            <Font name="Rockwell" size="18.0" />
+         </font></Label>
+      <Label fx:id="IDLabel" layoutX="467.0" layoutY="270.0">
+         <font>
+            <Font name="Rockwell" size="18.0" />
+         </font></Label>
+      <Label layoutX="24.0" layoutY="218.0" text="ID" textFill="#e8e4e4">
+         <font>
+            <Font name="Rockwell" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="CheckButton" layoutX="41.0" layoutY="286.0" mnemonicParsing="false" onAction="#CheckOnAction" prefHeight="34.0" prefWidth="74.0" text="Check">
+         <font>
+            <Font name="Rockwell" size="17.0" />
+         </font>
+      </Button>
+      <TextField fx:id="ID" layoutX="46.0" layoutY="215.0" opacity="0.84" promptText="ID">
+         <font>
+            <Font name="Rockwell" size="14.0" />
+         </font>
+      </TextField>
+      <Label fx:id="ErrorMesssage" layoutX="110.0" layoutY="253.0" textFill="#eeecec" />
+   </children>
+</AnchorPane>

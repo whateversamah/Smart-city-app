@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="522.0" prefWidth="758.0" style="-fx-background-color: #FEF8F8;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Debts">
+   <children>
+      <ImageView fitHeight="488.0" fitWidth="642.0" layoutX="73.0" layoutY="23.0">
+         <image>
+            <Image url="@Images/Debts.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="BackButton" layoutX="219.0" layoutY="267.0" mnemonicParsing="false" onAction="#BackOnAction" style="-fx-background-color: #950217;" text="Back" textFill="#f5f3f3">
+         <font>
+            <Font name="Rockwell" size="16.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>
