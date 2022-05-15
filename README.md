@@ -1,0 +1,2 @@
+# Smart-city-app
+Smart City App est une application Java utilisés pour stocker des détails sur une ville particulière. L ‘application fournit également tous les services tels que les réservations d'hôtels touristiques, les informations commerciales, les monuments historiques de la ville, un système d’emailing interne de la ville et plus encore. Cette application contient des informations complètes sur la ville, y compris les attractions, les cartes de localisation, les environnements commerciaux et des informations sur les organisations et les citoyens de celle-ci.
