@@ -27,16 +27,20 @@ L'utilisateur ensuite s'identifie en saisissant son id et mot de passe .
 En cliquant sur le bouton login, la classe réalise une connexion a la base
 de donnes pour vérifier son identité pour le rediriger enfin vers Home
 Page
+
 ![image](https://user-images.githubusercontent.com/73135192/168494271-3887b8c4-fd28-4819-a964-b1b410ba0225.png)
 
 Quand un genre de profile est sélectionné, la fenêtre de l’application ouvre la page d’authentification. Ici l’utilisateur fait entrer son mot de passe et son identifiant notamment le « Social number » pour les citoyens :
+
 ![image](https://user-images.githubusercontent.com/73135192/168494278-5f118d74-cedc-4246-af68-d8a33754fdfa.png)
 
- Les profils
+ <h3>Les profils</h3>
 Après l’authentification en comparant les données entrées avec celle enregistrées dans la base de données de la ville, l’utilisateur a accès à son profile personnel. 
       Pour les citoyens : 
+      
 ![image](https://user-images.githubusercontent.com/73135192/168494290-5e41945f-4235-4e6d-a57d-14628216550d.png)
-2.4.	Menu
+
+<h3>Menu</h3>
 Ce menu regroupe l’ensemble des fonctionnalités de l’application :
 •	Système d’email interne.
 •	Page de donnes bancaire.
@@ -44,16 +48,24 @@ Ce menu regroupe l’ensemble des fonctionnalités de l’application :
 •	Hotels, restaurants, mall, parcs et musées.
 •	Service de localisation géographique
 •	Profile d’utilisateurs.
+
 ![image](https://user-images.githubusercontent.com/73135192/168494310-f7a6f879-e177-4ef0-877b-853ce2a008d6.png)
-Service d’emailing 
+
+<h3>Service d’emailing </h3>
 Chaque utilisateur de l’application a accès à une adresse mail faisant partie d’un service d’emailing interne de la Ville. L’envoie et la réception des emails se fait à travers l’interface suivante.  
 ![image](https://user-images.githubusercontent.com/73135192/168494328-2958d00d-2255-437b-a577-0a3e5487e727.png)
-	Service de payement
+
+<h3>Service de payement</h3>
 Ce service requière une deuxième authentification en utilisant les données du compte bancaire à utiliser.
+
 ![image](https://user-images.githubusercontent.com/73135192/168494341-6ce6d2b9-1293-462b-9ff3-a8aad99e1f5e.png)
-Informations bancaires
+
+<h3>Informations bancaires</h3>
      Ce service sert à afficher les donnes bancaires d’utilisateur : Nom, Numéro Social, RIB, Adresse et Identifiant du compte
+     
 ![image](https://user-images.githubusercontent.com/73135192/168494354-39497f1b-918e-4238-b4cb-fb3eb047f50f.png)
+
 Avec une fonctionnalité de payement des différentes factures dues.  
+
 ![image](https://user-images.githubusercontent.com/73135192/168494362-af67cdd7-75b5-4155-8a6a-213bd1690888.png)
 
